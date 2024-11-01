@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODEMUC: Cooperativa de Desenvolvimento Uauaense de Microempreendedores Cultural</title>
+    <meta name="description" content="CODEMUC: Explore o melhor que Uauá tem a oferecer.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.postimg.cc/rwP2RQ2T/D.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+        header {
+            background-color: #FF5722; /* Laranja */
+            text-align: center;
+            padding: 0; /* Remover padding para imagem preencher */
+            color: #ffffff;
+            border-bottom: 4px solid #000000; /* Preto */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header img {
+            width: 700px; /* Largura da logotipo ajustada para 700px */
+            height: auto; /* Mantém a proporção da imagem */
+            display: block; /* Remove espaços indesejados embaixo da imagem */
+            margin: 0 auto; /* Centraliza a imagem */
+        }
+        main {
+            padding: 15px;
+            max-width: 700px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Branco */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #FF5722; /* Laranja */
+            border-bottom: 2px solid #000000; /* Preto */
+            padding-bottom: 5px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.8em; /* Aumentando o tamanho da fonte */
+        }
+        .description {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #666; /* Cor do texto mais suave */
+        }
+        .instagram {
+            text-align: center;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #000000; /* Preto */
+            border-radius: 10px;
+            color: white;
+            font-size: 1.2em;
+            cursor: pointer; /* Muda o cursor para indicar que é clicável */
+        }
+        .about {
+            background-color: rgba(255, 165, 0, 0.8); /* Laranja claro */
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .about p {
+            text-align: justify;
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .moda-block, .mercado-block, .culinaria-block, .turismo-block, .hospedagem-block, .agro-block {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: rgba(255, 165, 0, 0.8); /* Laranja claro */
+            border-radius: 10px;
+            cursor: pointer; /* Muda o cursor para indicar que é clicável */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .moda-block img, .mercado-block img, .culinaria-block img, .turismo-block img, .hospedagem-block img, .agro-block img {
+            width: 100px; /* Largura da imagem do bloco */
+            height: auto;
+            border-radius: 10px;
+            margin-right: 15px; /* Espaço entre imagem e texto */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #FF5722; /* Laranja */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.postimg.cc/Y0vDktML/ololol.jpg" alt="Logo do CODEMUC">
+    </header>
+    <main>
+        <h2>Quem Somos</h2>
+        <div class="about">
+            <p>Olá, você deve estar se perguntando quem somos. Muito prazer! Somos o grupo <strong>CODEMUC</strong>, Cooperativa de Desenvolvimento Uauaense de Microempreendedores Cultural, surgimos em meio ao projeto cultural <strong>JEPP</strong> (Jovens Empreendedores Primeiros Passo).</p>
+            <p>Aqui na CODEMUC, o microempreendedor expande os seus negócios e o cliente tem mais acessibilidade a produtos da região. Sejam bem-vindos à CODEMUC.</p>
+            <p>- 9° Ano D Centro de Educação Integral de Uauá 🧡</p>
+        </div>
+        <div class="instagram" onclick="window.open('https://www.instagram.com/codemuc', '_blank')">
+            Siga-nos no Instagram: <strong>@codemuc</strong>
+        </div>
+
+        <h2>Descubra Nossas Ofertas</h2>
+        <p class="description">Explore o melhor que Uauá tem a oferecer: moda, comércio, culinária, turismo, hospedagem e agro!</p>
+        
+        <div class="moda-block" onclick="window.open('file:///C:/Users/emanu/OneDrive/Documentos/comeduc%20moda.html', '_self')">
+            <img src="https://i.postimg.cc/SNwhjNTr/rfvbgt.jpg" alt="Moda CODEMUC">
+            <div>
+                <h3>CODEMUC MODA</h3>
+                <p>Roupas de lojas de microempreendedores culturais da região.</p>
+            </div>
+        </div>
+        
+        <div class="mercado-block" onclick="window.open('file:///C:/Users/emanu/OneDrive/Documentos/comeduc%20mercado.html', '_self')">
+            <img src="https://i.postimg.cc/PqnvbHxb/vhnjm.jpg" alt="Mercado CODEMUC">
+            <div>
+                <h3>CODEMUC MERCADO</h3>
+                <p>Produtos de microempreendedores culturais da região.</p>
+            </div>
+        </div>
+
+        <div class="culinaria-block" onclick="window.open('file:///C:/Users/emanu/OneDrive/Documentos/comeduc%20culinaria.html', '_self')">
+            <img src="https://i.postimg.cc/90kYCkBx/poiu.jpg" alt="Culinária CODEMUC">
+            <div>
+                <h3>CODEMUC CULINÁRIA</h3>
+                <p>Delícias da culinária de microempreendedores culturais da região.</p>
+            </div>
+        </div>
+
+        <div class="turismo-block" onclick="window.open('file:///C:/Users/emanu/OneDrive/Documentos/comeduc%20turismo.html', '_self')">
+            <img src="https://i.postimg.cc/gjBbdG5f/asdjkl.jpg" alt="Turismo CODEMUC">
+            <div>
+                <h3>CODEMUC TURISMO</h3>
+                <p>Descubra os encantos e passeios da nossa região.</p>
+            </div>
+        </div>
+
+        <div class="hospedagem-block" onclick="window.open('file:///C:/Users/emanu/OneDrive/Documentos/comeduc%20hospedagem.html', '_self')">
+            <img src="https://i.postimg.cc/SNFxnrt3/poiuyt.jpg" alt="Hospedagem CODEMUC">
+            <div>
+                <h3>CODEMUC HOSPEDAGEM</h3>
+                <p>Opções de hospedagem de microempreendedores culturais da região.</p>
+            </div>
+        </div>
+
+        <div class="agro-block" onclick="window.open('file:///C:/Users/emanu/OneDrive/Documentos/comeduc%20agro.html', '_self')">
+            <img src="https://i.postimg.cc/BvkXMGMQ/wedfghn.jpg" alt="Agro CODEMUC">
+            <div>
+                <h3>CODEMUC AGRO</h3>
+                <p>Produtos agropecuários de microempreendedores culturais da região.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 CODEMUC. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
